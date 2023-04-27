@@ -1,15 +1,15 @@
 /*global $*/
 $(function(){
   
-  var start = $("#start");
-  var stop = $("#stop");
-  var reset = $("#reset");
-  var timer = $(".timer");
-  var hour = 0;
-  var min = 0;
-  var sec = 0;
-  var milSec = 0;
-  var interval;
+  let start = $("#start");
+  let stop = $("#stop");
+  let reset = $("#reset");
+  let timer = $(".timer");
+  let hour = 0;
+  let min = 0;
+  let sec = 0;
+  let milSec = 0;
+  let interval;
 
   function count(){
     milSec++;
